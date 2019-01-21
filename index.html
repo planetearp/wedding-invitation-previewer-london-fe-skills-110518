@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Great+Vibes|MedievalSharp|Nanum+Gothic" rel="stylesheet">
+  <title>Wedding Invitation</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 class="title">Marry me good</h1>
+    </header>
+    
+    <div class="container">
+      
+      <div class="form">
+        <header>
+          <h2 class="title">Pick your poison</h2>
+        </header>
+        <nav class="navbar">
+          <ul class="nav">
+            <li class="nav-item" design="boring"><a href="#">Boring</a></li>
+            <li class="nav-item" design="treasure"><a href="#">Treasure</a></li>
+            <li class="nav-item" design="darker"><a href="#">Darker</a></li>
+          </ul>
+        </nav>
+        <hr>
+        
+        <form class="form-input" action="/action_page.php">
+          
+          <div class="form-item">
+            <label for="bride">Bride</label>
+            <input type="text" name="bride" id="bride" class="inputs">
+          </div>
+          
+          <div class="form-item">
+            <label for="groom">Groom</label>
+            <input type="text" name="groom" id="groom" class="inputs">
+          </div>
+          
+          <div class="form-item">
+            <label for="lastname">Last name</label>
+            <input type="text" name="lastname" id="lastname" class="inputs">
+          </div>
+
+          <div class="form-item">
+            <label for="date">Date</label>
+            <input type="text" name="date" id="date" class="inputs">
+          </div>
+          
+          <div class="form-item">
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location" class="inputs">
+          </div>
+ 
+ 
+</form> 
+      </div>
+      
+      <div id="inv" class="boring">
+        <div class="test input-item initials" id="inv-initials">
+          <p></p>
+        </div>
+        
+        <div class="test fixed-invite" id="fixed-invite">
+          <p>You are <span id="adjective"></span> invited to the wedding of</p>
+        </div>
+        
+        <div class="test input-item names" id="inv-names">
+          <p></p>
+        </div>
+        
+        <div class="test input-item surname" id="inv-surname">
+          <p></p>
+        </div>
+        
+        <div class="test input-item date" id="inv-date">
+          <p></p>
+        </div>
+        
+        <div class="test input-item local" id="inv-location">
+          <p></p>
+        </div>
+        
+         <div class="test empty"></div>
+        
+      </div>
+      
+    </div>
+  </main>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>

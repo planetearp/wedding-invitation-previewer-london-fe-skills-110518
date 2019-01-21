@@ -1,0 +1,204 @@
+/* font-family: 'MedievalSharp', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Aguafina Script', cursive; */
+
+
+body {
+  box-sizing: border-box;
+  background: #212121;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #f2f2f2;
+}
+
+main {
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 20px auto;
+}
+
+header h1 {
+  max-width: 1200px;
+  font-size: 6vh;
+  font-weight: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(400px, 500px) 500px;
+  grid-template-rows: minmax(600px, auto);
+  grid-gap: 15px;
+}
+
+.form {
+  background: #212121;
+}
+
+.nav {
+  list-style-type: none;
+  display: grid;
+  padding: 5px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+ul li a {
+  display: block;
+  color: inherit;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul li a:hover, ul li a:focus {
+ font-weight: bold;
+ color:red;
+}
+
+.form-input {
+  padding: 10px 50px 0 70px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.form-item {
+  display: grid;
+  margin-bottom: 30px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+input[type=text] {
+  padding: 5px;
+  margin: 0 20px;
+  background: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-image: none;
+}
+
+input[type=text]:focus {
+  color: inherit;
+  border-color: red;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+label {
+  font-size: 18px;
+}
+
+
+#inv {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 0.5fr 0.35fr 0.5fr 0.25fr 0.25fr 0.75fr;
+  grid-gap: 3px;
+  justify-items: center;
+  align-items: center;
+}
+
+.test p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.initials {
+  align-self: end;
+  justify-items: center;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.fixed-invite {
+  font-style: italic;
+  font-size: 1.25em;
+}
+
+.names {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.surname {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.date {
+  align-items: end;
+  justify-items: center;
+}
+
+.local {
+  display: grid;
+  grid-gap: 0.5em;
+  align-items: start;
+  justify-items: center;
+}
+
+.empty {
+  min-height: 20px;
+}
+
+
+/* Invitation Styles */
+
+.fixed-invite {
+  display: none;
+}
+
+.boring {
+  background-color: #646464;
+  background-image: linear-gradient(to top right, #ff0000, #ffb3b3);
+}
+
+
+/* Treasure Invitation */
+
+.treasure {
+  background-color: #212121;
+  background-image: url("/img/wedscroll.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  color: #212121;
+  font-size: 20px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+}
+
+
+/* Darker Invitation */
+
+.darker {
+  background-color: #212121;
+  background-image: url("/img/wedgoth.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  font-size: 18px;
+  color: #ffcccc;
+  font-family: 'MedievalSharp', cursive;
+  font-weight: bold;
+}
+
