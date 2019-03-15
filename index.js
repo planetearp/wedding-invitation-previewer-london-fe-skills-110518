@@ -4,6 +4,7 @@ const types = document.getElementsByClassName('nav-item');
 
 function changeClass(newClass) {
   document.getElementById("inv").className = newClass;
+  document.getElementById("adjective").textContent = newClass + "ly"
 }
 
 for (let i = 0; i < types.length; i++) {
